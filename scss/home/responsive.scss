@@ -1,0 +1,235 @@
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 98%;
+  }
+  .header-top {
+    .logo-header {
+      i {
+        display: block;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+      }
+      .logo {
+        width: 80%;
+      }
+      .address-bar {
+        display: none;
+      }
+    }
+  }
+  .section-1 {
+    .header-bottom {
+      .all-navbar {
+        ul {
+          display: none;
+        }
+        .social-media {
+          display: none;
+        }
+      }
+    }
+    .sec-1 {
+      span {
+        margin-top: 100px;
+      }
+      h1 {
+        margin: 10px 0;
+        width: 98%;
+        font-size: 32px;
+      }
+      p {
+        width: 98%;
+        font-size: 14px;
+      }
+      .explore {
+        margin-bottom: 100px;
+        width: 98%;
+      }
+    }
+  }
+  .section-2 {
+    padding: 80px 0;
+    flex-direction: column;
+    .title {
+      width: 98% !important;
+      margin-bottom: 20px;
+    }
+    .boxes {
+      width: 98% !important;
+      flex-direction: column;
+      .box {
+        width: 100% !important;
+        .service-info {
+          width: 100%;
+          h5 {
+            font-size: 18px;
+          }
+          p {
+            width: 100%;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .section-4 {
+    .flex {
+      flex-direction: column;
+    }
+    .top-sec-4 {
+      padding: 10px !important;
+      width: 90%;
+      .sec-4-title {
+        width: 100% !important;
+      }
+      .sec-4-img {
+        width: 98% !important;
+        position: relative;
+        .sec-4-img-1 {
+          border: 10px solid white;
+          position: static !important;
+          left: 0%;
+          bottom: 0%;
+          z-index: 111;
+        }
+        .sec-4-img-2 {
+          margin: auto;
+          width: 90% !important;
+        }
+      }
+    }
+    .bottom-sec-4 {
+      width: 100% !important;
+      margin-bottom: 60px !important;
+    }
+  }
+  .section-5 {
+    padding-top: 30px !important;
+    height: 100% !important;
+    .all-sec-5 {
+      position: static !important;
+      .boxes {
+        flex-direction: column;
+        .box {
+          width: 98% !important;
+          margin-bottom: 10px;
+        }
+      }
+      button {
+        margin-left: 0% !important;
+        width: 98%;
+      }
+    }
+  }
+  .section-6 {
+    .all-sec-6 {
+      .title-sec-6 {
+        .rows {
+          flex-direction: column;
+        }
+      }
+      .msg-boxes {
+        flex-direction: column;
+        .box {
+          width: 98% !important;
+          padding: 31px 36px !important;
+        }
+      }
+    }
+  }
+  .section-7 {
+    flex-direction: column !important;
+    .left {
+      width: 100% !important;
+      height: 300px !important;
+      .air {
+        position: static !important;
+        margin-left: 0% !important  ;
+      }
+    }
+    .right {
+      width: 100% !important;
+      padding: 0px 50px !important;
+      padding-top: 100px !important;
+    }
+  }
+  .section-8 {
+    .boxes {
+      flex-direction: column;
+      .box {
+        width: 98% !important;
+        margin-bottom: 20px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .section-9 {
+    .all-sec-9 {
+      .top {
+        flex-direction: column !important;
+        .left {
+          width: 98% !important;
+          .mails {
+            width: 100% !important;
+            margin-bottom: 20px;
+            .box {
+              width: 100% !important;
+              text-align: center;
+            }
+          }
+        }
+        .right {
+          width: 98% !important;
+        }
+      }
+      .bottom {
+        flex-direction: column;
+        .box {
+          width: 98% !important;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .section-10 {
+    .boxes {
+      flex-direction: column;
+      width: 98% !important;
+      .box {
+        flex-direction: column;
+        .date {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+      }
+    }
+  }
+  footer {
+    .footer-top {
+      display: none !important;
+      .top {
+        ul {
+          li:not(:first-child) {
+            display: none !important;
+          }
+        }
+      }
+    }
+    .footer-bottom {
+      .bottom-1 {
+        flex-direction: column !important;
+        gap: 20px !important;
+        display: none !important    ;
+      }
+      .bottom-2 {
+        .btm {
+          flex-direction: column !important;
+        }
+      }
+    }
+  }
+}
